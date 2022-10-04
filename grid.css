@@ -1,0 +1,45 @@
+body { 
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "nav article panel1"
+      "nav article panel2"
+      "nav footer footer";
+    grid-template-rows: 140px auto auto 140px;
+    grid-template-columns: 15% 1fr 15%;
+    grid-gap: 5px;
+    height: 100vh;
+    margin: 0;
+    background:rgb(30, 71, 134)
+    }
+  header, footer, article, nav, div {
+    padding: 10px;
+    background: rgb(69, 126, 210);
+    border-radius: 5px;
+  }
+  #jotaro {
+    max-width: 13vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5.6vh;
+    margin-bottom: 5.6vh;
+  }
+  #myHeader {
+    grid-area: header;
+  }
+  #myFooter {
+    grid-area: footer;
+  }
+  #myArticle { 
+    grid-area: article;    
+    }
+  #myNav { 
+    grid-area: nav; 
+    }
+  #myPanel1 {
+    grid-area: panel1;
+  }
+  #myPanel2 {
+    grid-area: panel2;
+  }

@@ -1,0 +1,55 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background:rgb(30, 71, 134)
+    }
+  header, footer, article, nav, div {
+    display: flex;
+    padding: 10px;
+    margin: 2.5px;
+    background: rgb(69, 126, 210);
+    border-radius: 5px;
+  }
+  #jotaro {
+    max-width: 13vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5.6vh;
+    margin-bottom: 5.6vh;
+  }
+  .container1 {
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    background:rgb(30, 71, 134);
+  }
+  .container2 {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background:rgb(30, 71, 134);
+    /*height: 120%;*/
+  }
+  .container3 {
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    background:rgb(30, 71, 134);
+  }
+  .container4 {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background:rgb(30, 71, 134);
+    width: 50%;
+  }
+  #myHeader {
+    height:120%;
+  }
+  #myNav { 
+    flex-direction: column;
+    width: 75%;
+  }
