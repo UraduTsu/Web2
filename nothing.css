@@ -1,42 +1,43 @@
 body { 
-    display: block;
+    width: 100vw;
     height: 100vh;
     margin: 0;
     background:rgb(30, 71, 134)
     }
   header, footer, article, nav, div {
-    padding: 10px;
-    margin: 2.5px;
+    padding: 1vh 1vw 1vh 1vw;
+    margin: 0.325vh 0.15vw 0.325vh 0.15vw;
     background: rgb(69, 126, 210);
     border-radius: 5px;
     float: left;
   }
   #jotaro {
     max-width: 13vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5.6vh;
-    margin-bottom: 5.6vh;
+    max-height: 6vw;
+    margin-top: 5vh;
+    margin-left: 1.5vw;
   }
   #myHeader {
-    width: 98.2%;
-    height: 15%;
-  }
-  #myFooter {
-    width: 85.2%;
-    height: 14.7%;
-  }
-  #myArticle { 
-    width: 70.6%;
-    height: 60%;    
+    height: 10vh;
+    width: 97.7vw;
   }
   #myNav { 
-    height: 78.1%; 
+    width: 15vw;
+    height: 84.5vh; 
+  }
+  #myArticle {
+    width: 64vw;
+    height: 69vh;
   }
   #myPanel1 {
-    width: 13%;
+    height: 33.2vh;
+    width: 14.1vw;
   }
-  #myPanel2 {
-    width: 13%;
+  #myPanel2 { 
+    height: 33.2vh;
+    width: 14.1vw;
+  }
+  #myFooter {
+    height: 12.75vh;
+    width: 80.4vw;
   }
