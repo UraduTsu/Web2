@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    width: 98.5vw;
     margin: 0;
     background:rgb(30, 71, 134)
     }
@@ -14,6 +15,7 @@ body {
   }
   #jotaro {
     max-width: 13vw;
+    max-height: 6vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -21,35 +23,57 @@ body {
     margin-bottom: 5.6vh;
   }
   .container1 {
+    height: 100%;
+    width: 100%;
     flex-direction: row;
     padding: 0;
     margin: 0;
     background:rgb(30, 71, 134);
   }
   .container2 {
+    width: 100%;
+    height: 100%;
     flex-direction: column;
     padding: 0;
     margin: 0;
     background:rgb(30, 71, 134);
-    /*height: 120%;*/
   }
   .container3 {
+    height: 100%;
+    width: 100%;
     flex-direction: row;
     padding: 0;
     margin: 0;
     background:rgb(30, 71, 134);
   }
   .container4 {
+    height: 100%;
+    width: 15%;
     flex-direction: column;
     padding: 0;
     margin: 0;
     background:rgb(30, 71, 134);
-    width: 50%;
   }
   #myHeader {
-    height:120%;
+    height: 10%;
+    width: 100%;
   }
   #myNav { 
     flex-direction: column;
-    width: 75%;
+    width: 15%;
+  }
+  #myFooter {
+    height: 10%;
+    width: 100%;
+  }
+  #myPanel1 {
+    width: 100%;
+    height: 50%;
+  }
+  #myPanel2 {
+    width: 100%;
+    height: 50%;
+  }
+  #myArticle {
+    width: 85%;
   }
